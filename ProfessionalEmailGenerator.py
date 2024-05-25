@@ -1,5 +1,6 @@
 from langchain.prompts import PromptTemplate
-from langchain.llms import OpenAI
+#from langchain.llms import OpenAI
+from langchain_openai import OpenAI
 
 # Initialize the OpenAI language model with an API key and set the temperature parameter
 # Temperature 0.0 means the model's outputs will be more deterministic

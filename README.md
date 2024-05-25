@@ -8,7 +8,7 @@ and a customized signature, using an AI language model.
 ## Installation
 Before running the script, ensure you have installed the following dependencies:
 - langchain library: `pip install langchain`
-- OpenAI library: `pip install openai`
+- OpenAI library: `pip install openai` deprecated, now use `pip install -U langchain-openai`
 
 ### API Key Setup
 To use the OpenAI language model in the script, you need to obtain an API key from OpenAI. Follow these steps:
